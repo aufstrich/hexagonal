@@ -1,0 +1,35 @@
+POST http://localhost:8080/api/task
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": "fd85b665-5fea-4acd-8865-a92b0b2cca2e",
+  "description": "mein erster task"
+}
+
+###
+GET http://localhost:8080/api/task
+Accept: application/json
+
+###
+POST http://localhost:8080/api/task/fd85b665-5fea-4acd-8865-a92b0b2cca2e/progress
+Accept: application/json
+
+###
+POST http://localhost:8080/api/task/fd85b665-5fea-4acd-8865-a92b0b2cca2e/open
+Accept: application/json
+
+###
+POST http://localhost:8080/api/task/fd85b665-5fea-4acd-8865-a92b0b2cca2e/close
+Accept: application/json
+
+###
+POST http://localhost:8080/api/task/fd85b665-5fea-4acd-8865-a92b0b2cca2e/cancel
+Accept: application/json
+
+###
+POST http://localhost:8080/api/task/fd85b665-5fea-4acd-8865-a92b0b2cca2e/print
+Accept: application/json
+
+
+
